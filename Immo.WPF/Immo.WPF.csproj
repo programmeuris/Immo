@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Immo.DAL\Immo.DAL.csproj" />
+    <ProjectReference Include="..\Immo.Models\Immo.Models.csproj" />
+  </ItemGroup>
+
+</Project>

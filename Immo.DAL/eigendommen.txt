@@ -1,0 +1,8 @@
+﻿eigendom;xantenstraat 58;125;22500
+huis;kievermont 65;144;740000;2015;110
+eigendom;ganzenstraat 102;110;20900
+appartement;waterstraat 71;60;600;2021;60
+eigendom;gasstraat 22;140;foutief
+huis;katersberg 15;130;425000;1999;105
+appartement;seppendijk 12;75;750;2012;75
+huis;pettenlaan 88;105;425000;2009;105
