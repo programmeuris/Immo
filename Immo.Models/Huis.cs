@@ -34,14 +34,15 @@ namespace Immo.Models
         public int BewoonbareOppervlakte
         {
             get => _bewoonbareOppervlakte;
-            set => _bewoonbareOppervlakte = value;
+            set => _bewoonbareOppervlakte = value >= 0 ?
+                value : throw new CustomException($"{nameof(BewoonbareOppervlakte)} is kleiner dan 0");
         }
 
         public int Bouwjaar
         {
             get => _bouwjaar;
             set => _bouwjaar = value >= 0 ?
-                value : throw new CustomException("Bouwjaar is kleiner dan 0");
+                value : throw new CustomException($"{nameof(Bouwjaar)} is kleiner dan 0");
         }
 
         // private fields

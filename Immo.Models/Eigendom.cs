@@ -38,14 +38,14 @@ namespace Immo.Models
         {
             get => _oppervlakte;
             set => _oppervlakte = value >= 0 ?
-                value : throw new CustomException("Oppervlakte is kleiner dan 0");
+                value : throw new CustomException($"{nameof(Oppervlakte)} is kleiner dan 0");
         }
 
         public int Prijs
         {
             get => _prijs;
             set => _prijs = value >= 0 ?
-                value : throw new CustomException("Prijs is kleiner dan 0");
+                value : throw new CustomException($"{nameof(Prijs)} is kleiner dan 0");
         }
 
         // private fields
